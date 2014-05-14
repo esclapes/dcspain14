@@ -1,0 +1,25 @@
+{
+  "name": "eCommerce & Crowdfunding @ UNICEF Spain",
+  "version": "0.0.0",
+  "authors": [
+    "Eduardo Esclapés <eesclapes@unicef.es>"
+  ],
+  "description": "Lessons learned implementing custom web applications",
+  "main": "index.html",
+  "keywords": [
+    "slides"
+  ],
+  "license": "CC-BY-NC-ND",
+  "homepage": "www.unicef.es",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "remark": "~0.6.5"
+  }
+}
