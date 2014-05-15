@@ -5,39 +5,36 @@ class: center, middle, invert
 ### lessons learned implementing custom web applications<br />at the Spanish Committee for UNICEF
 
 ---
-
-name: intro
 class: cover
-background-image: url(http://www.etbnews.com/wp-content/uploads/file/Unicef.jpg)
+background-image: url(img/Unicef.jpg)
 <!-- background-image: url(http://www.unicef.es/sites/www.unicef.es/files/diarrea.jpg) -->
- 
+
 ## .twitter[@unicef_es]
 
 ---
-
 name: timeline
 
 # Drupal projects timeline
 
 --
-### 2009-2010: testing the waters
+### 2009-2010: testing the waters:
 
-* **ecards.unicef.es**: simple eCards app for business
-* **tiendaempresas.unicef.es**: eCommerce for business
-
-
---
-### 2010-2011: jumping with both feet
-
-* **www.unicef.es**: main corparate site
-* **tienda.unicef.es**: new eCommerce for all customers
+* **ecards.unicef.es**: simple eCards app for business.
+* **tiendaempresas.unicef.es**: eCommerce for business.
 
 
 --
-### 2012-2013: building up
+### 2010-2011: jumping with both feet:
 
-* **tienda.unicef.es**: eCommerce upgrade to Drupal 7
-* **meayudas.unicef.es**: crowdfunding platform
+* **www.unicef.es**: main site.
+* **tienda.unicef.es**: new eCommerce for all customers.
+
+
+--
+### 2012-2013: building up:
+
+* **tienda.unicef.es**: eCommerce upgrade to Drupal 7.
+* **meayudas.unicef.es**: crowdfunding platform.
 
 ---
 
@@ -58,31 +55,27 @@ background-image: url(http://tienda.unicef.es/sites/tienda.unicef.es/files/image
 
 ---
 
-class: center, middle
-background-image: url(/img/tienda-ra-page-crop.png)
+class: center, bottom
+background-image: url(img/tienda-ra-page-crop.png)
 
 .semitransparent[
-## Lets have a look at the workflow.
+## Quick peek at the workflow.
 ]
 ---
 
-background-image: url(/img/tienda-ra-page-crop.png)
+background-image: url(img/tienda-ra-escoger-portada.png)
 
 ---
 
-background-image: url(/img/tienda-ra-escoger-portada.png)
+background-image: url(img/tienda-ra-personalizar-tarjeta.png)
 
 ---
 
-background-image: url(/img/tienda-ra-personalizar-tarjeta.png)
+background-image: url(img/tienda-ra-enviar-tarjeta.png)
 
 ---
 
-background-image: url(/img/tienda-ra-enviar-tarjeta.png)
-
----
-
-background-image: url(/img/tienda-ra-cart-checkout.png)
+background-image: url(img/tienda-ra-cart-checkout.png)
 
 ---
 
@@ -102,7 +95,7 @@ background-image: url(/img/tienda-ra-cart-checkout.png)
 * Cart & Checkout complexity: triggers.
 
 --
-* Sending mass email. 
+* Sending mass email.
 
 --
 * Non trivial reporting.
@@ -116,73 +109,80 @@ class: center, middle, invert
 ---
 
 class: center
-background-image: url(/img/meayudas-image.jpg)
-
---
+background-image: url(img/meayudas-image.jpg)
 
 ## meayudas.unicef.es
 
-### Getting the most out of a simple idea
+---
+
+class: center, middle
+background-image: url(img/meayudas-wireframe-home.png)
 
 ---
 
 class: center, middle
-background-image: url(/img/meayudas-wireframe-home.png)
+background-image: url(img/meayudas-home.png)
 
---
+---
+
+class: center, middle
+background-image: url(img/meayudas-wireframe-pagina.png)
+
+---
+
+class: center, middle
+background-image: url(img/meayudas-pagina.png)
+
+---
+
+class: center, bottom
+background-image: url(img/meayudas-mobile-2.png)
+
 .semitransparent[
-## Not all projects have wireframes, this one did.
-]
-
----
-
-class: center, middle
-background-image: url(/img/meayudas-home.png)
-
----
-
-class: center, middle
-background-image: url(/img/meayudas-wireframe-pagina.png)
-
----
-
-class: center, middle
-background-image: url(/img/meayudas-pagina.png)
-
---
-.semitransparent[
-## Mobile?
+## Mobile
 ]
 
 ---
 
 class: right, bottom
-background-image: url(/img/meayudas-wireframe-home-mobile.png)
+background-image: url(img/meayudas-mobile-pagina-2.png)
 
 ---
 
-class: center, middle
-background-image: url(/img/meayudas-home-mobile.png)
+class: center, bottom
+background-image: url(img/meayudas-landing.png)
 
----
-
-class: right, bottom
-background-image: url(/img/meayudas-wireframe-pagina-mobile.png)
-
----
-
-class: center, middle
-background-image: url(/img/meayudas-pagina-mobile.png)
-
---
 .semitransparent[
-## And then we added landing pages
+## Landing pages
 ]
 
 ---
 
-class: center, middle
-background-image: url(/img/meayudas-landing.png)
+class: center, bottom
+background-image: url(img/meayudas-anpp.png)
+
+.semitransparent[
+## Campaign takeover
+]
+
+---
+
+# Implementation challenges
+
+--
+* Crowdfunding itself:
+  * User campaigns.
+  * Offline donations.
+  * Custom notification.  
+  <small>Most of this became custom code.</small>
+
+--
+* Mobile version.  
+  <small>Not responsive. Shame!</small>
+
+--
+* Campaign takeover.  
+  <small>This was hard. Ask jotha.</small>  
 
 ---
 
@@ -194,7 +194,6 @@ class: center, middle, invert
 
 # Don't skip discovery.
 
-
 --
 * Keep It Simple (product and workflow).
 * Define goals.
@@ -202,7 +201,6 @@ class: center, middle, invert
 * Make clear what is your product and what is not.
 * Draw diagrams and wireframes.
 * Define acceptance tests (and automate them).
-
 
 --
 ### Descovery costs money.
@@ -244,8 +242,8 @@ Product launching is just the beginnig.
 
 --
 * A web needs administration:
-   * Don't forget you are also a user. Administration pages should be thoght and designed.
-   * Think about reporting and integration with your other tools.
+   * Don't forget you are also a user. Administration pages should be well thought out.
+   * Think about reporting and integration with other tools you use.
 
 --
 * A web needs help:
@@ -255,34 +253,24 @@ Product launching is just the beginnig.
 ---
 # Use the right tools
 
-**And use the tools right**.  
+**And use the tools right**.
 Using Drupal as our framework of choice, allowed us:
 
 --
 * To learn, and work with, one technology for both complex and simple projects.  
-
---
 *<small>A good idea if you manage and develop serveral applications.</small>*
 
 --
-* To write and maintain less custom code.  
+* To work with several providers and avoid lock-in.  
+*<small>It's possible to change providers, but is is never easy. Foster good relationships.</small>*
 
 --
+* To write and maintain less custom code.  
 *<small>Custom code has a place. Learn when to use it.</small>*
 
 --
 * To have a big knowledge base and best practices available.  
-
---
-*<small>So useful. Invaluable.</small>*
-
---
-* To avoid lock-in.  
-
---
-*<small>It's possible to change providers, but never easy. Foster good relationships.</small>*
-
-
+*<small>This is so useful. Invaluable.</small>*
 
 ---
 class: center, middle, invert
